@@ -46,6 +46,7 @@ if __name__ == '__main__':
         print("4. Sair")
         
         opcao = input("Informe sua escolha: ")
+        os.system('cls') or None
         if opcao == '1':
             description = input("Descreva a tarefa: ")
             task_manager.add_task(description)
